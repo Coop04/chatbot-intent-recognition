@@ -1,0 +1,128 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?",
+          "Hola", "Yo", "Hey there", "Hi there", "Hii", "Helloo"
+        ],
+        "responses": [
+          "Hello!", "Hi there!", "Hey! How can I help you?", "Greetings!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", "Goodbye", "See you", "See you later", "Talk to you later",
+          "Catch you later", "Later", "Bye bye", "Bi", "Bai", "Cya", "Gud bye"
+        ],
+        "responses": [
+          "Goodbye!", "See you soon!", "Take care!", "Have a great day!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", "Thank you", "Thanks a lot", "Much appreciated", "Thx",
+          "Thank you so much", "thank", "thankyou", "tnx", "ty"
+        ],
+        "responses": [
+          "You're welcome!", "No problem!", "Happy to help!", "Anytime!"
+        ]
+      },
+      {
+        "tag": "name_query",
+        "patterns": [
+          "What is your name?", "Who are you?", "Tell me your name",
+          "What's your bot name?", "May I know your name?"
+        ],
+        "responses": [
+          "I'm your friendly chatbot!", "They call me Chatster!",
+          "I'm a simple bot created to help you."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke", "Make me laugh", "Do you know any jokes?",
+          "Say something funny", "Laugh", "Crack a joke"
+        ],
+        "responses": [
+          "Why don't scientists trust atoms? Because they make up everything!",
+          "I would tell you a construction joke, but I'm still working on it.",
+          "Why did the computer get cold? Because it forgot to close its Windows."
+        ]
+      },
+      {
+        "tag": "time",
+        "patterns": [
+          "What time is it?", "Tell me the time", "Current time please",
+          "Do you know the time?", "Time now?"
+        ],
+        "responses": [
+          "Sorry, I can't see a clock, but you can check your device!",
+          "Time is relative! Check your phone :)"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like?", "Tell me the weather", "Is it raining?",
+          "How's the weather?", "Weather today?", "Weather now"
+        ],
+        "responses": [
+          "I'm not connected to live weather data, but a quick Google search should help!",
+          "Try asking a weather app for the latest updates."
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "What's your favorite food?", "What's your favourite food?", "Favourite food?",
+          "Favorite food?", "What do you like to eat?", "Do you eat?",
+          "Do you like food?", "What’s your go-to dish?", "Do you like biryani?",
+          "What food do you love?"
+        ],
+        "responses": [
+          "I run on code, but I’d say pizza smells like a good idea!",
+          "Biriyani forever!",
+          "I’ve always wanted to try ice cream... if I had a mouth."
+        ]
+      },
+      {
+        "tag": "creator",
+        "patterns": [
+          "Who created you?", "Who made you?", "Tell me about your creator",
+          "Who is your creator?", "Who developed you?", "Who built you?",
+          "Who's your developer?", "Who coded you?", "Created you?", "Create"
+        ],
+        "responses": [
+          "I was created by a brilliant human!",
+          "A developer built me using Python and machine learning!",
+          "My creator? Probably someone who drinks a lot of coffee."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help", "Can you assist me?", "What can you do?", "Help me",
+          "I have a question", "How do you work?"
+        ],
+        "responses": [
+          "I can chat with you, tell jokes, answer questions, and be your virtual buddy!",
+          "Sure! Try saying 'Tell me a joke' or 'What's your name?'",
+          "I'm here to assist — just ask me something!"
+        ]
+      },
+      {
+        "tag": "unknown",
+        "patterns": [],
+        "responses": [
+          "Sorry, I didn’t get that.",
+          "Can you rephrase that?",
+          "I'm still learning. Try asking me something else!"
+        ]
+      }
+    ]
+  }
+  
